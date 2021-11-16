@@ -1,0 +1,5 @@
+a,b,x,y = map(int,input().split())
+pen_cost = a*x
+pencil_cost = b*y
+total_cost = pen_cost + pencil_cost
+print(total_cost)
